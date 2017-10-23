@@ -1,0 +1,221 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    text-align: center;
+    background-image: url('bilder/Theme_Redesign17_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    font-family: Arial, sans-serif;
+    padding-top:20px;
+}
+
+header, nav, footer, aside, section {
+    display: block;
+}
+
+header {
+    /*background-color: yellow;*/
+    background-image: url('bilder/Theme_Redesign17_header1.jpg');
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 151px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    
+}
+
+
+}
+
+h1 {
+    color: red;
+}
+
+
+aside {
+    /*background-color: #808000;*/
+    width:175px;
+    float:right;
+}
+
+section {
+    background-color: lightgray;
+    margin-left:25px;
+    margin-right:195px;
+    margin-top:25px;
+    margin-bottom:30px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom:20px;
+    border-radius:10px;
+}
+
+    section h1 {
+        padding-top: 20px;
+        padding-bottom: 0.4em;
+        color: #dd9661;
+    }
+
+    section p{
+        padding-bottom:1em;
+    }
+
+    section h2 {
+        color: #dd9661;
+        padding-top: 1em;
+        padding-bottom: 0.6em;
+    }
+
+    section ul{
+        padding-left:3em;
+    }
+
+    section li{
+        padding-bottom:0.5em;
+    }
+
+footer {
+    /*background-color: brown;*/
+    background-image: url('bilder/grau-50.png');
+    color:white;
+    text-align:center;
+    clear:both;
+}
+
+#wrapper {
+    background-color: rgba(57, 57, 57, 0.8);
+    width: 900px;
+    /*border: 2px solid red;*/
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    margin: 0 auto;
+}
+
+header p{
+    /*background-color: orange;*/
+    text-align:right;
+    padding-right:15px;
+}
+
+#logotext{
+    padding-top:50px;
+    font-size:20pt;
+    color:white;
+}
+header a{
+    color: white;
+}
+
+aside img{
+    /*margin-left:10px;*/
+    width:50px gray solid;
+
+}
+
+aside p{
+    margin-top:20px;
+    margin-left:10px;
+}
+
+header img{
+    float:left;
+}
+
+#guildguides img{
+    padding-top:30px;
+    padding-left:20px;
+}
+#Guildguides2 {
+    color:black;
+    padding-top:87px;
+    opacity:0;
+}
+
+.video{
+   text-align:center;
+   padding-top:20px;
+    
+}
+
+.zentriert{
+    text-align:center;
+}
+
+.hand{
+    margin-left:250px;
+    margin-top:20px;
+    transform:rotate(-90deg)
+}
+
+
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 10;
+    width: 900px;
+}
+
+li {
+    float: left;
+}
+
+    li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 11px 57px;
+        text-decoration: none;
+    }
+
+        li a:hover, .dropdown:hover .dropbtn {
+           background-color: rgba(183, 12, 22,1);
+        }
+
+    li.dropdown {
+        display: inline-block;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+titel{
+    padding:30px;  
+    margin-bottom:30px;
+}
+ 
+#Titel img{
+    height:50%;
+    width:50%;
+}
+
